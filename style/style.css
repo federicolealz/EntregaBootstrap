@@ -2,6 +2,11 @@
     list-style: none;
     padding: auto;
 }
+a{
+    text-decoration: none;
+    color: black;
+    
+}
 .navbar-img{
     margin-left: 60px;
 }
@@ -11,6 +16,17 @@
 }
 nav ul{
     padding: 20px;
+}
+.box{
+    margin-right: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.box-anm{
+    transition: all 0.25s;
+}
+.box:hover{
+    transform: scale(1.5);
+
 }
 main{
     background-image: url(../img/fondo.jpg);
